@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>חדשות ביטחון מהשטח</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Heebo', Arial, sans-serif;
+            direction: rtl;
+            text-align: center;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .header {
+            background-color: #0088cc;
+            background-image: linear-gradient(to right, #007bb6, #00a4e3);
+            color: white;
+            padding: 40px 20px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            margin: 10px 0 0;
+            word-break: break-word;
+        }
+
+        .logo-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 2.5em;
+        }
+
+        .content {
+            padding: 20px;
+            margin-top: -30px;
+            z-index: 2;
+            position: relative;
+        }
+
+        .channel-name {
+            background-color: white;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .channel-name h2 {
+            font-size: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .button-wrapper {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 16px 40px;
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .link-button {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-radius: 12px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid #eef2f5;
+        }
+
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+
+        .link-button .icon {
+            font-size: 1.8em;
+            margin-left: 15px;
+        }
+
+        .link-button .text {
+            flex-grow: 1;
+            text-align: right;
+            font-size: 1.1em;
+            font-weight: 700;
+        }
+
+        .link-button .arrow {
+            color: #ccc;
+            font-size: 1.5em;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 480px) {
+            .header { padding: 28px 16px; }
+            .logo { width: 80px; height: 80px; font-size: 2em; }
+            .header h1 { font-size: 1.8em; }
+            .link-button { padding: 12px; }
+            .link-button .text { font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo-container">
+        <div class="logo" aria-label="לוגו">📰</div>
+    </div>
+    <h1>@LELOTSENZURA</h1>
+    <div class="channel-name">
+        <h2>חדשות בטחון מהשטח ללא צנזורה</h2>
+        <p style="font-size: 0.9em; margin: 0; color: #888;">NEWS CHANNEL</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="button-wrapper">
+
+        <a href="https://t.me/lelotsenzura" class="link-button" target="_blank" rel="noopener">
+            <div class="icon">📢</div>
+            <div class="text">חדשות בטחון מהשטח ללא צנזורה</div>
+            <div class="arrow">&larr;</div>
+        </a>
+
+        <a href="https://t.me/Bitahon12bot" class="link-button" target="_blank" rel="noopener">
+            <div class="icon">✉️</div>
+            <div class="text">יצירת קשר</div>
+            <div class="arrow">&larr;</div>
+        </a>
+
+        <a href="https://whatsapp.com/channel/0029Vafp7QR4dTnRYf2ATj09" class="link-button" target="_blank" rel="noopener">
+            <div class="icon">💬</div>
+            <div class="text">לוואטסאפ שלנו</div>
+            <div class="arrow">&larr;</div>
+        </a>
+
+        <a href="https://www.instagram.com/bitahonnews?igsh=dTI3OWNyZ3lteWFm" class="link-button" target="_blank" rel="noopener">
+            <div class="icon">📷</div>
+            <div class="text">לאינסטגרם</div>
+            <div class="arrow">&larr;</div>
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>
